@@ -19,15 +19,15 @@ https://github.com/jnichols93/mb-be
 # Part (2) Front-End
 
 - Calculator
-  [ ] Build functional Calculator.
-  [ ] Send Input and output to back-end.
+  -[ ] Build functional Calculator.
+  -[ ] Send Input and output to back-end.
 
 - Notification System
-  [ ] Users should be updated whenever a new calculation is performed.
+  -[ ] Users should be updated whenever a new calculation is performed.
 
 - Sign-in/Sign-up
-  [ ] sign-in.
-  [ ] sign-up.
+  -[ ] sign-in.
+  -[ ] sign-up.
 
 
 # Tech-Stack:

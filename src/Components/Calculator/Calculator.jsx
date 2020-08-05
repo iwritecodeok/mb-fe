@@ -19,6 +19,7 @@ export default class Calculator extends React.Component{
         else if (['+','-','*','/','%'].indexOf(pressed)!== -1) problem += ' ' +pressed+' ';
         else if (pressed === '='){
             try{
+                // REFACTOR LATER (eval is unsafe(injection))
                 const evalAnswer = eval(problem);
                 const answer = Number.isInteger(evalAnswer)?evalAnswer: evalAnswer.toFixed(2);
                 this.setState({answer});
@@ -31,6 +32,7 @@ export default class Calculator extends React.Component{
             problem = problem.substr(0, problem.length -1);
         }
         this.setState({problem:problem});
+        console.log(problem)
     }
         clear(){
             this.setState({problem:'', answer:0})

@@ -38,7 +38,6 @@ export default function Keypad(){
         <Button>0</Button>
         <Button>.</Button>
         <Button>=</Button>
-        <Button></Button>
         </ButtonRow>
         </section>
     )

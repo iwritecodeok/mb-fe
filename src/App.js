@@ -2,7 +2,7 @@ import React from 'react';
 import './Styles/App.css';
 import Banner from './Components/Banner/Banner';
 import Calculator from './Components/Calculator/Calculator';
-import History from './Components/History/History'
+import HistoryList from './Components/History/History'
 import Footer from './Components/Footer/Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <Banner/>
         <Calculator/>
-        <History/>
+        <HistoryList/>
         <Footer/>
       </header>
     </div>

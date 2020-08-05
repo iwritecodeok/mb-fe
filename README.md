@@ -20,10 +20,12 @@ https://github.com/jnichols93/mb-be
 
 - Calculator
   - [x] Build functional Calculator.
+  - [x] Receive data from back-end.
   - [ ] Send Input and output to back-end.
 
+
 - History
-  - [ ] Add a list of the last 10 calculations.
+  - [x] Add a list of the last 10 calculations.
   - [ ] List should only display the last 10!!
 
 - Notification System

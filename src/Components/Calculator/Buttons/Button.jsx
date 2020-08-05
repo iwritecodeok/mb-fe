@@ -1,5 +1,9 @@
-import react from 'react';
+import React from 'react';
 
 export default function button(props){
-    const classes = ['']
+    return(
+    <button className = 'calcBtn'>
+        {props.children}
+    </button>
+    );
 }

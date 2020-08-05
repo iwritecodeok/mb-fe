@@ -1,7 +1,7 @@
 ## mb-fe
 
 Front-End for sezzle code assesment (MathBook)
-Started (08/24/2020)
+Started (08/04/2020)
 
 # Objective:
 

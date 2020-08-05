@@ -1,9 +1,10 @@
 import React from 'react';
+import Screen from './Screen/Screen'
 
 export default function Calculator(){
     return(
-        <div className = 'calcBody'>
-            <h1>Calculator</h1>
-        </div>
+        <main className = 'calc_Body'>
+            <Screen/>
+        </main>
     )
 }

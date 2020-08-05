@@ -19,7 +19,7 @@ https://github.com/jnichols93/mb-be
 # Part (2) Front-End
 
 - Calculator
-  - [ ] Build functional Calculator.
+  - [x] Build functional Calculator.
   - [ ] Send Input and output to back-end.
 
 - History

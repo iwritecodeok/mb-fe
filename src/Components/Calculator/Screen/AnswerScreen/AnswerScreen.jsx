@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function answerScreen(){
+export default function answerScreen(props){
 return(
     <div className ='ans_Screen'>
-        100
+        {props.children}
     </div>
 );
 }

@@ -36,4 +36,4 @@ https://github.com/jnichols93/mb-be
 
 # Tech-Stack:
 
-- react
+- react/redux

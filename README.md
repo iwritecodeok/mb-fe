@@ -30,13 +30,13 @@ https://github.com/jnichols93/mb-be
   - [x] List should only display the last 10 (fixed on back-end).
   - [ ] changes should be shown instantly.
 
-* Notification System
-
-  - [ ] Users should be updated whenever a new calculation is performed.
-
 * Sign-in/Sign-up
   - [ ] sign-in.
   - [ ] sign-up.
+
+* Notification System
+
+  - [ ] Users should be updated whenever a new calculation is performed.
 
 # Tech-Stack:
 

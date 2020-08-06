@@ -23,20 +23,20 @@ https://github.com/jnichols93/mb-be
   - [x] Receive data from back-end.
   - [x] Send Input and output to back-end.
 
+* History
 
-- History
   - [x] Add a list of the last 10 calculations.
   - [x] Sort most recent first.
   - [ ] List should only display the last 10.
   - [ ] changes should be shown instantly.
 
-- Notification System
+* Notification System
+
   - [ ] Users should be updated whenever a new calculation is performed.
 
-- Sign-in/Sign-up
+* Sign-in/Sign-up
   - [ ] sign-in.
   - [ ] sign-up.
-
 
 # Tech-Stack:
 

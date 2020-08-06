@@ -12,7 +12,7 @@ export default class HistoryList extends React.Component{
         };
     }
     apiCall =()=>{
-        axios.get('http://localhost:5000/api/math').then( response =>{
+        axios.get('https://mb-be.herokuapp.com/api/math').then( response =>{
             this.setState({history:response.data});
         })
         .catch(error => {
@@ -22,7 +22,7 @@ export default class HistoryList extends React.Component{
 
     componentDidMount(){
         this.apiCall();
-        this.interval = setInterval(this.apiCall, 200);
+        this.interval = setInterval(this.apiCall, 500);
 
     }
     componentWillUnmount(){

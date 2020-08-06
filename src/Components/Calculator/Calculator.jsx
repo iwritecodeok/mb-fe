@@ -24,7 +24,7 @@ export default class Calculator extends React.Component{
                 const answer = Number.isInteger(evalAnswer)?evalAnswer: evalAnswer.toFixed(2);
                 this.setState({answer});
                 
-                axios.post('http://localhost:5000/api/math', {
+                axios.post('https://mb-be.herokuapp.com/api/math', {
                     problem: problem,
                     answer: answer
                 })

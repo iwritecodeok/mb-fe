@@ -26,8 +26,8 @@ https://github.com/jnichols93/mb-be
 * History
 
   - [x] Add a list of the last 10 calculations.
-  - [x] Sort most recent first.
-  - [ ] List should only display the last 10.
+  - [x] Sort most recent first. (fixed on back-end)
+  - [x] List should only display the last 10 (fixed on back-end).
   - [ ] changes should be shown instantly.
 
 * Notification System

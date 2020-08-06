@@ -2,7 +2,8 @@ import React  from 'react';
 import axios from 'axios';
 // import { axiosWithAuth } from '../../Utils/axiosWithAuth';
 import HistoryItem from './historyBox';
-import './_history.css'
+
+
 export default class HistoryList extends React.Component{
     constructor(){
         super();

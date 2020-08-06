@@ -1,7 +1,7 @@
 import React from 'react';
 import Screen from './Screen/Screen'
 import Keypad from './Keypad/Keypad'
-
+import axios from 'axios';
 
 export default class Calculator extends React.Component{
 
@@ -23,6 +23,18 @@ export default class Calculator extends React.Component{
                 const evalAnswer = eval(problem);
                 const answer = Number.isInteger(evalAnswer)?evalAnswer: evalAnswer.toFixed(2);
                 this.setState({answer});
+                
+                axios.post('http://localhost:5000/api/math', {
+                    problem: problem,
+                    answer: answer
+                })
+                .then(function (response) {
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+
             }catch(err){
                 alert('bad math is bad try again');
             }
@@ -37,6 +49,8 @@ export default class Calculator extends React.Component{
         clear(){
             this.setState({problem:'', answer:0})
         }
+
+
     render(){
     return(
         <div className = 'calc_Body'>

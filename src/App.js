@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles/App.css';
+import './Styles/App.scss';
 import Banner from './Components/Banner/Banner';
 import Calculator from './Components/Calculator/Calculator';
 import HistoryList from './Components/History/History'

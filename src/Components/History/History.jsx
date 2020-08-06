@@ -11,14 +11,22 @@ export default class HistoryList extends React.Component{
             history: [],
         };
     }
-    componentDidMount(){
+    apiCall =()=>{
         axios.get('http://localhost:5000/api/math').then( response =>{
-            console.log(response.data);
             this.setState({history:response.data});
         })
         .catch(error => {
             console.log(error)
         })
+    }
+
+    componentDidMount(){
+        this.apiCall();
+        this.interval = setInterval(this.apiCall, 200);
+
+    }
+    componentWillUnmount(){
+        clearInterval(this.interval);
     }
     render(){
         return(

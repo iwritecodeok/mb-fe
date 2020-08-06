@@ -28,9 +28,6 @@ export default class Calculator extends React.Component{
                     problem: problem,
                     answer: answer
                 })
-                .then(function (response) {
-                    console.log(response);
-                })
                 .catch(function (error) {
                     console.log(error);
                 });
@@ -44,7 +41,7 @@ export default class Calculator extends React.Component{
             problem = problem.substr(0, problem.length -1);
         }
         this.setState({problem:problem});
-        console.log(problem)
+
     }
         clear(){
             this.setState({problem:'', answer:0})

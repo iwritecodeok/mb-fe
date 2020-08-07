@@ -28,15 +28,9 @@ https://github.com/jnichols93/mb-be
   - [x] Add a list of the last 10 calculations.
   - [x] Sort most recent first. (fixed on back-end)
   - [x] List should only display the last 10 (fixed on back-end).
-  - [ ] changes should be shown instantly.
+  - [x] changes should be shown instantly.
 
-* Sign-in/Sign-up
-  - [ ] sign-in.
-  - [ ] sign-up.
 
-* Notification System
-
-  - [ ] Users should be updated whenever a new calculation is performed.
 
 # Tech-Stack:
 

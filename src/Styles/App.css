@@ -27,12 +27,19 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #16a085 #f0f0f0;
 }
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #16a085;
+  border-radius: 20px;
+  border: 3px solid #16a085;
+}
+

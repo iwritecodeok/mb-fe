@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonRow from './Rows/ButtonRows';
-import Button from '../Buttons/Button'
+import Button from '../Buttons/Button';
+import ButtonLarge from '../Buttons/ButtonLarge';
 
 export default function Keypad(props){
 
@@ -38,7 +39,7 @@ export default function Keypad(props){
         <ButtonRow>
         <Button onButtonPress={props.onButtonPress}>0</Button>
         <Button onButtonPress={props.onButtonPress}>.</Button>
-        <Button onButtonPress={props.onButtonPress}>=</Button>
+        <ButtonLarge onButtonPress={props.onButtonPress}>=</ButtonLarge>
         </ButtonRow>
         </section>
     )

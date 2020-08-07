@@ -3,6 +3,8 @@
 Front-End for sezzle code assesment (MathBook)
 Started (08/04/2020)
 
+Deployed Front end ( https://mb-fe.vercel.app/ )
+
 # Objective:
 
 Create a web app (using any programming languages) which logs calculations as they happen and shares those calculations with everyone connected to the website.

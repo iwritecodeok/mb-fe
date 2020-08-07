@@ -1,6 +1,6 @@
 
 .calc_Body{
-    background-color: black;
+    background-color: #272423;
     width: 17rem;
     border-radius: 1.13rem;
     padding-top: .5rem;
@@ -12,6 +12,8 @@
         color: black;
         border-radius: .5rem;
         padding: 0.5rem;
+        font-size: x-large;
+
     }
     .prblm_Screen{
         background-color: #ededed;
@@ -19,6 +21,7 @@
         height: 2.5rem;
         color: black;
         border-radius: .5rem;
+        font-size: x-large;
     }
     .keypad{
         display: flex;
@@ -34,6 +37,7 @@
             width:20%;
             background: whitesmoke;
             cursor:pointer;
+            font-size: x-large;
         }
         .calcBtnLarge{
             width: 40%;
@@ -41,6 +45,16 @@
             font-size: xx-large;
             color: whitesmoke;
             border-radius: .5rem;
+            cursor:pointer;
+        }
+        .calcBtnMed{
+            width: 21%;
+            background: #F97B3C;
+            font-size: xx-large;
+            color: whitesmoke;
+            border-radius: .5rem;
+            cursor:pointer;
+
         }
         }
     }

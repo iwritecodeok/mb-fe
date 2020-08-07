@@ -1,1 +1,36 @@
-@import 'src/Styles/_Colors.scss';
+
+.calc_Body{
+    background-color: black;
+    width: 21%;
+    border-radius: 1.13rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    
+    .ans_Screen{
+        background-color: #ededed;
+        margin: .5rem;
+        color: black;
+        border-radius: .5rem;
+        padding: 0.5rem;
+    }
+    .prblm_Screen{
+        background-color: #ededed;
+        margin: .5rem;
+        height: 2.5rem;
+        color: black;
+        border-radius: .5rem;
+    }
+    .keypad{
+        display: flex;
+        flex-direction: column;
+        .buttonRow{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0.5rem;
+        }
+        .calcBtn{
+            padding: 3%;
+            border-radius: 50%;
+        }
+        }
+    }

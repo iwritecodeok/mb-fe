@@ -1,10 +1,10 @@
 import React from 'react';
-import Screen from './Screen/Screen'
-import Keypad from './Keypad/Keypad'
+import Screen from './Screen/Screen';
+import Keypad from './Keypad/Keypad';
 import axios from 'axios';
 
 
-
+import './_calcStyles.scss';
 export default class Calculator extends React.Component{
 
     state = {

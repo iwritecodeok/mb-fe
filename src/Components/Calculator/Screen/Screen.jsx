@@ -6,7 +6,7 @@ import ProblemScreen from './ProblemScreen/ProblemScreen';
 export default function Screen(props){
     return(
         <section className = 'screenBody'>
-            <AnswerScreen>{props.problem}={props.answer}</AnswerScreen>
+            <AnswerScreen>{props.problem} = {props.answer}</AnswerScreen>
             <ProblemScreen>{props.problem}</ProblemScreen>
         </section>
     )

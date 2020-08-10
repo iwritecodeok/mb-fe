@@ -1,6 +1,5 @@
 import React  from 'react';
 import axios from 'axios';
-// import { axiosWithAuth } from '../../Utils/axiosWithAuth';
 import HistoryItem from './historyBox';
 
 

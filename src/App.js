@@ -8,12 +8,12 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <Banner/>
         <Calculator/>
         <HistoryList/>
         <Footer/>
-      </header>
+      </div>
     </div>
   );
 }

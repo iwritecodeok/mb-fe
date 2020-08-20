@@ -22,6 +22,7 @@ export default class Calculator extends React.Component{
         else if (pressed === '='){
             try{
                 // REFACTOR LATER (eval is unsafe(injection))
+                // this is actually a proper use case for eval, as there is no way to alter input. 
                 const evalAnswer = eval(problem);
                 const answer = Number.isInteger(evalAnswer)?evalAnswer: evalAnswer.toFixed(2);
                 this.setState({answer});

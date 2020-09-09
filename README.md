@@ -1,8 +1,5 @@
 ## mb-fe
 
-Front-End for sezzle code assesment (MathBook)
-Started (08/04/2020)
-
 Deployed Front end ( https://mb-fe.vercel.app/ )
 
 # Objective:
